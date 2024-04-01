@@ -29,6 +29,8 @@ div.scroll {
   color: white;
   padding: 4vh;
   padding-top: 23vh;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
 .nome {

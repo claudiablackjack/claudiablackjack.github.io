@@ -1,0 +1,93 @@
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.checkbtn{
+  font-size: 30px;
+  color: #ff0044;
+  float: right;
+  line-height: 80px;
+  margin: 0 30px;
+  display: none;
+  z-index: 2;
+}
+#check{
+    display: none;
+}
+
+div.scroll {
+  position:fixed;
+  z-index: 1;
+  right: 0;
+  top: 0;
+  background-color: #0a0a19;
+  opacity: 80%;
+  width: 40vh;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  color: white;
+  padding: 4vh;
+  padding-top: 23vh;
+}
+
+.nome {
+  color: #ff0044;
+  font-family: "Elgoc-Thin";  
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 5vh;
+}
+
+.descricao {
+  color: #eae1ff;
+  font-family: "Zodiak-Thin";
+  font-size: 13.5px;
+  padding-top: 2vh;
+}
+
+.descricao-lingua {
+  color: #ff0044;
+  font-family: "Zodiak-thinItalic";
+  font-size: 13.5px;
+  padding-top: 2vh;
+}
+
+.projetos{
+  font-family: "Zodiak-Thin";
+  font-size: 13.5px;
+  padding-top: 2vh;
+  padding-left: 3vh;
+}
+  .projetos a{
+    color: #dc1d50;
+    text-decoration: none;
+  }
+    .projetos a:hover{
+      color: #eae1ff;
+    }
+
+.redes{
+  font-family: "Zodiak-ThinItalic";
+  font-size: 11px;
+  padding-top: 2vh;
+  padding-left: 3vh;
+  line-height: 2vh;
+}
+  .redes a{
+    color: #eae1ff;
+    text-decoration: none;
+    margin-bottom: 1vh;
+  }
+    .redes a:hover{
+      color: #dc1d50;
+    }
+
+.direitos-autor{
+  font-family: "Zodiak-ThinItalic";
+  font-size: 10px;
+  color: rgba(225, 214, 252, 0.646);
+  padding-top: 1vh;
+  line-height: 2vh;
+}
+

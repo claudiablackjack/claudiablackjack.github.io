@@ -1,0 +1,23 @@
+.project-text {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    right: 60%;
+    font-family: "Elgoc-Thin"; 
+}
+    .project-text a {
+        text-decoration: none;
+        color: #dc1d50;
+        font-weight: bold;
+    }
+    .project-text a:hover {
+        color: #eae1ff;
+    }
+    .project-descricao {
+        color: #eae1ff;
+        font-family: "Zodiak-Thin";
+        font-size: 12px;
+        line-height: 2vh;
+        padding-top: .5vh;
+        padding-left: 6vh;
+    }

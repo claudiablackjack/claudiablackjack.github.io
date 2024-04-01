@@ -1,0 +1,52 @@
+@media only screen and (max-width: 500px) {
+
+    /*scrollmenu to hamburger menu*/
+    .checkbtn{
+        position: fixed;
+        display: block;
+        right: 1vh;
+      }
+
+      #check:checked ~ div.scroll {
+        left: 0;
+      }
+
+      div.scroll {
+        position:fixed;
+        background-color: #0a0a19;
+        left: -200%;
+        opacity: 90%;
+        width: 62vh;
+        padding-right: 10vh;
+        transition: all .5s ease;
+      }
+      .nome {
+        padding-left: 5vh;
+      }
+
+      .descricao {
+        padding-left: 5vh;
+        padding-right: 6vh;
+      }
+
+      .projetos{
+        padding-left: 8vh;
+      }
+
+      .redes{
+        padding-left: 8vh;
+      }
+    
+    /*legendas*/
+    .project-text {
+        top: 80%;
+        left: 10%;
+        right: 5%;
+    }
+    
+    .project-descricao {
+        padding-top: 1vh;
+        padding-right: 2vh;
+        padding-left: 4.5vh;
+    }
+}

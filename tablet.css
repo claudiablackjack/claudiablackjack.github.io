@@ -1,0 +1,88 @@
+@media only screen and (max-width: 600px) {
+
+    /*scrollmenu*/
+    div.scroll {
+        width: 30vh;
+        padding-top: 30vh;
+      }
+      .nome { 
+        font-size: 30px;
+      }
+      .descricao {
+        font-size: 12.5px;
+      }
+        .projetos{
+            font-size: 12.5px;
+            padding-left: 2vh;
+        }
+            .projetos a{
+            font-size: 12.5px;
+            }
+
+    /*legendas*/
+    .self-text {
+        top: 80%;
+        left: 5%;
+        right: 55%;
+        font-size: 13px;
+    }
+        .self-descricao {
+            padding-top: 1vh;
+            padding-left: 0vh;
+        }
+    
+    .blackjack-text {
+        top: 80%;
+        left: 5%;
+        right: 55%;
+        font-size: 13px;
+    }
+        .blackjack-descricao {
+            padding-top: 1vh;
+            padding-left: 0vh;
+        }
+
+    .eulogy-text {
+        top: 70%;
+        left: 5%;
+        right: 55%;
+        font-size: 13px;
+    }
+        .eulogy-descricao {
+            padding-top: 1vh;
+            padding-left: 0vh;
+        }
+
+    .timbres-text {
+        top: 73%;
+        left: 5%;
+        right: 55%;
+        font-size: 13px;
+    }
+        .timbres-descricao {
+            padding-top: 1vh;
+            padding-left: 0vh;
+        }
+    
+    .tschichold-text {
+        top: 67%;
+        left: 5%;
+        right: 55%;
+        font-size: 12px;
+    }
+        .tschichold-descricao {
+            padding-top: 1vh;
+            padding-left: 0vh;
+        }
+
+    .imperio-text {
+        top: 70%;
+        left: 5%;
+        right: 55%;
+        font-size: 13px;
+    }
+        .imperio-descricao {
+            padding-top: 1vh;
+            padding-left: 0vh;
+        }
+}
